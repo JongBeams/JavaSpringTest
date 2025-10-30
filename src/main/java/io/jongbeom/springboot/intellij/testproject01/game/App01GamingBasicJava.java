@@ -1,7 +1,4 @@
-package io.jongbeom.springboot.intellij.testproject01;
-
-import io.jongbeom.springboot.intellij.testproject01.game.PacManGame;
-import io.jongbeom.springboot.intellij.testproject01.game.gameRunner;
+package io.jongbeom.springboot.intellij.testproject01.game;
 
 public class App01GamingBasicJava {
 
@@ -15,6 +12,9 @@ public class App01GamingBasicJava {
         // 2.객체 생성 + 종속성 연결
         // game(GamingConsole)은 gameRunner 클래스의 의존성
         gameRunner.run();
+
+
+
 
 
     }
