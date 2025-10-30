@@ -2,9 +2,10 @@ package io.jongbeom.springboot.intellij.testproject01.game;
 
 public class gameRunner {
 
-    MarioGame game;
+    //MarioGame game;
+    GamingConsole game;
 
-    public gameRunner(MarioGame game) {
+    public gameRunner(GamingConsole game) {
         this.game =game;
 
     }
